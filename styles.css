@@ -1,7 +1,22 @@
+* {
+    background-color: #a8a8a8;
+    transition: background-color 0.7s ease;
+}
+
 img {
     transition: transform 0.1s ease;
 }
 
 img:hover{
     transform: scale(1.5);
+}
+
+#rick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    cursor: pointer;
 }
